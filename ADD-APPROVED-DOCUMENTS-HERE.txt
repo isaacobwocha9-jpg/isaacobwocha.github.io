@@ -1,0 +1,1 @@
+Add only approved public PDFs. Rename them to match the links in index.html, or edit the links to match your filenames. Do not upload sensitive identity or financial documents.

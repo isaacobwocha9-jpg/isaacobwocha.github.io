@@ -1,652 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Isaac Obwocha Nyamanyara | IT Officer & ICT Support</title>
-
-    <meta name="description"
-        content="Professional portfolio of Isaac Obwocha Nyamanyara, IT Officer, ICT Support and IT Systems & Network Support professional.">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            background: #f5f7fa;
-        }
-
-        header {
-            background: #0b1f3a;
-            color: white;
-            padding: 20px 8%;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        nav a:hover {
-            color: #4da3ff;
-        }
-
-        .hero {
-            min-height: 90vh;
-            display: flex;
-            align-items: center;
-            padding: 70px 8%;
-            background: linear-gradient(135deg, #0b1f3a, #164b7a);
-            color: white;
-        }
-
-        .hero-content {
-            max-width: 850px;
-        }
-
-        .hero h1 {
-            font-size: 52px;
-            margin-bottom: 15px;
-        }
-
-        .hero h2 {
-            font-size: 27px;
-            font-weight: normal;
-            color: #b9dcff;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            max-width: 750px;
-            margin-bottom: 30px;
-        }
-
-        .buttons {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 13px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .primary {
-            background: white;
-            color: #0b1f3a;
-        }
-
-        .secondary {
-            border: 1px solid white;
-            color: white;
-        }
-
-        section {
-            padding: 70px 8%;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 45px;
-        }
-
-        .section-title h2 {
-            font-size: 34px;
-            color: #0b1f3a;
-        }
-
-        .about {
-            max-width: 900px;
-            margin: auto;
-            font-size: 17px;
-            text-align: center;
-        }
-
-        .experience-grid,
-        .project-grid,
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        .card {
-            background: white;
-            padding: 28px;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
-
-        .card h3 {
-            color: #0b1f3a;
-            margin-bottom: 8px;
-        }
-
-        .card h4 {
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .card ul {
-            padding-left: 20px;
-        }
-
-        .card li {
-            margin-bottom: 8px;
-        }
-
-        .skills-grid {
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        }
-
-        .skill {
-            background: white;
-            padding: 22px;
-            border-left: 5px solid #164b7a;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-
-        .education {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        .contact {
-            background: #0b1f3a;
-            color: white;
-            text-align: center;
-        }
-
-        .contact h2 {
-            color: white;
-        }
-
-        .contact p {
-            margin: 10px 0;
-        }
-
-        .contact a {
-            color: #9fd0ff;
-            text-decoration: none;
-        }
-
-        footer {
-            background: #061326;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
-
-        @media (max-width: 700px) {
-            .hero h1 {
-                font-size: 38px;
-            }
-
-            .hero h2 {
-                font-size: 22px;
-            }
-
-            nav {
-                gap: 15px;
-            }
-
-            nav ul {
-                margin-top: 10px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Isaac Obwocha Nyamanyara — IT Support, ICT Systems and Information Management portfolio.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Isaac Obwocha | IT Portfolio</title>
+  <style>
+    :root{--bg:#0b1220;--panel:#111c2e;--panel2:#16243a;--text:#e8eef8;--muted:#a8b6ca;--blue:#3b82f6;--cyan:#60a5fa;--line:#263750;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,18,32,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}
+    .brand{font-weight:800;letter-spacing:.04em;color:var(--white)}
+    .brand span{color:var(--cyan)}
+    nav{display:flex;gap:18px;flex-wrap:wrap}
+    nav a{font-size:.9rem;color:var(--muted)}
+    .hero{padding:84px 0 66px;background:radial-gradient(ellipse at 80% 15%,rgba(37,99,235,.2),transparent 42%)}
+    .hero-grid{display:grid;grid-template-columns:1.45fr .75fr;gap:48px;align-items:center}
+    .eyebrow{color:var(--cyan);font-weight:700;text-transform:uppercase;letter-spacing:.13em;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.06;letter-spacing:-.045em;margin:.55rem 0 1rem}
+    h1 span{color:var(--cyan)}
+    .lead{font-size:1.12rem;color:var(--muted);max-width:700px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:10px;font-weight:700;border:1px solid var(--line);color:var(--text);background:var(--panel)}
+    .btn.primary{background:var(--blue);border-color:var(--blue);color:white}
+    .profile-wrap{display:flex;justify-content:center}
+    .profile{width:min(270px,70vw);aspect-ratio:4/5;object-fit:cover;border-radius:24px;border:1px solid #35527b;background:linear-gradient(145deg,#1d3556,#101827);box-shadow:0 25px 80px rgba(0,0,0,.3)}
+    .photo-note{font-size:.78rem;color:var(--muted);text-align:center;margin-top:10px}
+    section{padding:64px 0;border-top:1px solid rgba(38,55,80,.65)}
+    .section-head{margin-bottom:26px}
+    .section-head h2{font-size:clamp(1.7rem,4vw,2.35rem);margin:0 0 8px;letter-spacing:-.03em}
+    .section-head p{color:var(--muted);margin:0;max-width:750px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+    .card h3{margin:0 0 8px;font-size:1.1rem}
+    .card p,.card li{color:var(--muted);font-size:.95rem}
+    .card ul{padding-left:19px;margin-bottom:0}
+    .tag{display:inline-block;border:1px solid #2e4d75;background:#10213b;color:#bfdbfe;padding:4px 9px;border-radius:999px;font-size:.78rem;margin:4px 4px 0 0}
+    .timeline{display:grid;gap:16px}
+    .timeline .card{border-left:3px solid var(--blue)}
+    .meta{color:var(--cyan);font-size:.83rem;font-weight:700;margin-bottom:6px}
+    .doc-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .doc{display:flex;align-items:flex-start;gap:13px;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:17px}
+    .doc-icon{font-size:1.35rem}
+    .doc h3{margin:0 0 3px;font-size:1rem}
+    .doc p{margin:0;color:var(--muted);font-size:.88rem}
+    .note{border:1px solid #36537b;background:#101f35;padding:15px 17px;border-radius:12px;color:#c7d8ef;margin-top:18px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    footer{padding:28px 0;color:var(--muted);border-top:1px solid var(--line);font-size:.88rem}
+    .small{font-size:.84rem;color:var(--muted)}
+    @media(max-width:800px){.hero-grid{grid-template-columns:1fr;gap:30px}.profile-wrap{justify-content:flex-start}.profile{width:190px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}nav{gap:10px}.nav{align-items:flex-start;padding:15px 0;flex-direction:column}}
+    @media(max-width:560px){.grid,.doc-list,.contact-grid{grid-template-columns:1fr}.hero{padding-top:55px}section{padding:48px 0}nav a{font-size:.82rem}}
+  </style>
 </head>
-
 <body>
-
 <header>
-    <nav>
-        <div class="logo">Isaac Obwocha</div>
-
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <div class="container nav">
+    <a class="brand" href="#home">ISAAC <span>OBWOCHA</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#documents">Documents</a><a href="#contact">Contact</a>
     </nav>
+  </div>
 </header>
 
-
-<!-- HERO -->
-
-<section class="hero">
-
-    <div class="hero-content">
-
-        <h1>Isaac Obwocha Nyamanyara</h1>
-
-        <h2>IT Officer | ICT Support | IT Systems & Network Support</h2>
-
-        <p>
-            Information Science and Knowledge Management graduate with practical
-            experience in ICT support, hardware and software troubleshooting,
-            systems support, data management, user assistance and information
-            systems. I am passionate about technology, digital operations,
-            cybersecurity awareness and solving technical problems.
-        </p>
-
-        <div class="buttons">
-
-            <a href="#experience" class="btn primary">
-                View My Experience
-            </a>
-
-            <a href="mailto:isaacobwocha9@gmail.com"
-               class="btn secondary">
-                Contact Me
-            </a>
-
+<main>
+  <section class="hero" id="home" style="border-top:0">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">IT Support · ICT Systems · Information Management</div>
+        <h1>Technology.<br><span>Support.</span> Solutions.</h1>
+        <p class="lead">I am Isaac Obwocha Nyamanyara, an IT-focused Information Science and Knowledge Management graduate with practical experience in ICT support, computer operations, troubleshooting and information handling.</p>
+        <div class="actions">
+          <a class="btn primary" href="documents/Isaac-Obwocha-CV.pdf">Download CV</a>
+          <a class="btn" href="#projects">Explore Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
         </div>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section id="about">
-
-    <div class="section-title">
-        <h2>About Me</h2>
-    </div>
-
-    <div class="about">
-
-        <p>
-            I am an IT-focused graduate in Information Science and Knowledge
-            Management with an IT specialization from the University of
-            Kabianga. My background combines information management,
-            ICT support, computer systems, networking fundamentals,
-            data management and user support.
-        </p>
-
-        <br>
-
-        <p>
-            During my professional and practical experience, I have supported
-            users with technical issues, assisted with hardware and software
-            troubleshooting, maintained ICT equipment and records, entered
-            and managed operational data, and supported day-to-day digital
-            operations.
-        </p>
-
-        <br>
-
-        <p>
-            I am analytical, adaptable and willing to learn. I work well
-            independently and as part of a team, with strong communication,
-            customer-service and problem-solving abilities.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- EXPERIENCE -->
-
-<section id="experience">
-
-    <div class="section-title">
-        <h2>Professional Experience</h2>
-    </div>
-
-    <div class="experience-grid">
-
-
-        <!-- NATIONAL TREASURY -->
-
-        <div class="card">
-
-            <h3>ICT Support / IT Attachment</h3>
-
-            <h4>National Treasury, Kenya</h4>
-
-            <ul>
-                <li>Provided first-line ICT support to users experiencing hardware, software and connectivity issues.</li>
-
-                <li>Performed basic hardware and software troubleshooting and maintenance.</li>
-
-                <li>Assisted users with login, password and access-related issues.</li>
-
-                <li>Supported installation and configuration of computer systems and related applications.</li>
-
-                <li>Assisted with printer troubleshooting and resolving power and connectivity issues.</li>
-
-                <li>Supported maintenance and organization of ICT equipment.</li>
-
-                <li>Maintained ICT records and documentation.</li>
-
-                <li>Supported day-to-day operation of information systems.</li>
-
-                <li>Assisted users with basic network connectivity problems.</li>
-
-                <li>Applied basic cybersecurity and safe ICT practices when supporting users and systems.</li>
-            </ul>
-
+      </div>
+      <div>
+        <div class="profile-wrap">
+          <img class="profile" src="assets/profile.jpg" alt="Professional portrait of Isaac Obwocha" onerror="this.style.display='none';document.getElementById('photo-placeholder').style.display='flex'">
+          <div id="photo-placeholder" class="profile" style="display:none;align-items:center;justify-content:center;text-align:center;padding:24px;color:#bfdbfe;font-weight:700">Add your professional photo<br><span style="font-size:.8rem;font-weight:400;color:#a8b6ca">assets/profile.jpg</span></div>
         </div>
-
-
-        <!-- QUICK MEAT PACKERS -->
-
-        <div class="card">
-
-            <h3>Computer Personnel</h3>
-
-            <h4>Quick Meat Packers</h4>
-
-            <ul>
-
-                <li>Entered and maintained weight readings and operational data using computer systems.</li>
-
-                <li>Supported weighing and scale-related computer operations.</li>
-
-                <li>Ensured accurate recording of measurements and data.</li>
-
-                <li>Performed basic computer-related troubleshooting during weighing operations.</li>
-
-                <li>Maintained accurate digital records.</li>
-
-                <li>Supported day-to-day operational activities involving computer systems and data.</li>
-
-            </ul>
-
-        </div>
-
-
-        <!-- ACADEMIC EXPERIENCE -->
-
-        <div class="card">
-
-            <h3>Information Systems & Academic Projects</h3>
-
-            <h4>University of Kabianga</h4>
-
-            <ul>
-
-                <li>Completed academic projects involving information systems and information management.</li>
-
-                <li>Applied information management concepts to organizational and technological problems.</li>
-
-                <li>Worked with data collection, analysis and presentation.</li>
-
-                <li>Developed research and documentation skills.</li>
-
-                <li>Studied computer systems, networking, information management and cybersecurity concepts.</li>
-
-                <li>Developed practical understanding of digital information systems and organizational processes.</li>
-
-            </ul>
-
-        </div>
-
+        <div class="photo-note">Professional profile photo</div>
+      </div>
     </div>
+  </section>
 
-</section>
-
-
-<!-- SKILLS -->
-
-<section id="skills">
-
-    <div class="section-title">
-        <h2>Technical Skills</h2>
+  <section id="about">
+    <div class="container">
+      <div class="section-head"><h2>About Me</h2><p>Practical, service-oriented and focused on keeping technology and information systems useful, reliable and well documented.</p></div>
+      <div class="card">
+        <p>I hold a degree in Information Science and Knowledge Management from the University of Kabianga, with an IT focus. My interests include ICT support, computer hardware and software troubleshooting, networking fundamentals, data management, digital information systems and safe ICT practices.</p>
+        <p>I value clear communication, structured problem-solving, customer service and accurate documentation. I am interested in opportunities where I can support users, maintain ICT equipment and contribute to dependable technology operations.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="skills-grid">
-
-        <div class="skill">IT Technical Support</div>
-
-        <div class="skill">Hardware Troubleshooting</div>
-
-        <div class="skill">Software Installation & Configuration</div>
-
-        <div class="skill">Computer Maintenance</div>
-
-        <div class="skill">Network Troubleshooting</div>
-
-        <div class="skill">LAN / WAN Fundamentals</div>
-
-        <div class="skill">IP Addressing</div>
-
-        <div class="skill">System Administration</div>
-
-        <div class="skill">ICT Asset Management</div>
-
-        <div class="skill">Information Management</div>
-
-        <div class="skill">Data Entry & Data Management</div>
-
-        <div class="skill">Database Concepts</div>
-
-        <div class="skill">Cybersecurity Awareness</div>
-
-        <div class="skill">User Support</div>
-
-        <div class="skill">Help Desk Support</div>
-
-        <div class="skill">Technical Documentation</div>
-
+  <section id="experience">
+    <div class="container">
+      <div class="section-head"><h2>Work Experience</h2><p>Experience in ICT support and computer-based operations.</p></div>
+      <div class="timeline">
+        <article class="card">
+          <div class="meta">ICT Industrial Attachment</div>
+          <h3>National Treasury — ICT Section</h3>
+          <ul>
+            <li>Assisted with first-line ICT support and day-to-day user technology issues.</li>
+            <li>Helped troubleshoot computer hardware, software, printer, power, login and connectivity problems.</li>
+            <li>Supported installation, configuration and maintenance of computer systems and ICT equipment.</li>
+            <li>Assisted users with password resets and access-related issues in line with workplace procedures.</li>
+            <li>Supported ICT records, equipment documentation and routine information-systems operations.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="meta">Computer Operations</div>
+          <h3>Quick Meat Packers</h3>
+          <ul>
+            <li>Entered and maintained weight readings in computer-based records.</li>
+            <li>Supported weighing and scale-related computer operations as part of daily workflow.</li>
+            <li>Helped maintain accurate digital records and followed operational procedures when handling data.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="small">Please verify titles, dates and duties against your records before publishing. Add any other verified roles to this section.</p>
     </div>
+  </section>
 
-</section>
-
-
-<!-- PROJECTS -->
-
-<section id="projects">
-
-    <div class="section-title">
-        <h2>Projects & Academic Work</h2>
+  <section id="skills">
+    <div class="container">
+      <div class="section-head"><h2>Technical Skills</h2><p>Core capabilities relevant to ICT support and information management roles.</p></div>
+      <div class="grid">
+        <article class="card"><h3>ICT Support</h3><p>First-line support, user assistance, hardware/software troubleshooting, printer support and system setup.</p><span class="tag">Help Desk</span><span class="tag">Troubleshooting</span></article>
+        <article class="card"><h3>Networking</h3><p>Networking fundamentals, LAN/WAN concepts, IP addressing and connectivity troubleshooting.</p><span class="tag">LAN/WAN</span><span class="tag">Connectivity</span></article>
+        <article class="card"><h3>Systems & Equipment</h3><p>Computer installation, maintenance, configuration, ICT asset awareness and documentation.</p><span class="tag">Maintenance</span><span class="tag">Asset Records</span></article>
+        <article class="card"><h3>Information Management</h3><p>Digital records, data entry, information organisation, documentation and data accuracy.</p><span class="tag">Data Quality</span><span class="tag">Records</span></article>
+        <article class="card"><h3>Security Awareness</h3><p>Data protection awareness, responsible access practices and basic cybersecurity principles.</p><span class="tag">Cybersecurity</span><span class="tag">Data Protection</span></article>
+        <article class="card"><h3>Professional Skills</h3><p>Communication, customer service, analytical thinking, adaptability and problem-solving.</p><span class="tag">Communication</span><span class="tag">Problem Solving</span></article>
+      </div>
     </div>
+  </section>
 
-    <div class="project-grid">
-
-
-        <div class="card">
-
-            <h3>AI & Cybersecurity Research</h3>
-
-            <p>
-                Academic research examining the impact of Artificial Intelligence
-                on cybersecurity, including cybersecurity threats, AI
-                effectiveness, user awareness and challenges associated with
-                AI-based security solutions.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>Kenya National Treasury Network Project</h3>
-
-            <p>
-                Academic network design project based on the Kenya National
-                Treasury environment, covering computer systems, switches,
-                routers, wireless access points, printers, servers and network
-                connectivity across multiple floors.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>Information Management Projects</h3>
-
-            <p>
-                Academic work involving information systems, information
-                management, data handling, research, documentation and
-                organizational information processes.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>ITIL 4 Research</h3>
-
-            <p>
-                Academic research examining external PESTLE factors and how
-                they influence resource dimensions within ITIL 4 and IT
-                service management.
-            </p>
-
-        </div>
-
+  <section id="projects">
+    <div class="container">
+      <div class="section-head"><h2>Projects & Work Samples</h2><p>Showcase evidence of your work. Add only projects you actually completed, and remove any details that are confidential.</p></div>
+      <div class="grid">
+        <article class="card">
+          <div class="meta">NETWORKING</div><h3>Office Network Design</h3>
+          <p>Document a multi-floor office network concept, including computers, switches, router, wireless access points, printers and servers.</p>
+          <p class="small">Add a safe diagram or report to <code>projects/</code> and link it here.</p>
+          <a href="projects/network-design.pdf">View project sample →</a>
+        </article>
+        <article class="card">
+          <div class="meta">RESEARCH</div><h3>AI & Cybersecurity</h3>
+          <p>Summarise your research on how artificial intelligence affects cybersecurity, including key risks, benefits and possible solutions.</p>
+          <a href="projects/ai-cybersecurity-report.pdf">View research sample →</a>
+        </article>
+        <article class="card">
+          <div class="meta">ICT OPERATIONS</div><h3>Troubleshooting Case Studies</h3>
+          <p>Write anonymised examples of common user issues, the diagnostic steps taken, the solution and what you learned.</p>
+          <a href="projects/troubleshooting-case-studies.pdf">View case studies →</a>
+        </article>
+      </div>
+      <div class="note">The project links above are placeholders. Upload the matching PDF files before publishing, or change the links to the files you have.</div>
     </div>
+  </section>
 
-</section>
-
-
-<!-- EDUCATION -->
-
-<section id="education">
-
-    <div class="section-title">
-        <h2>Education</h2>
+  <section id="education">
+    <div class="container">
+      <div class="section-head"><h2>Education & Professional Development</h2></div>
+      <div class="card">
+        <div class="meta">UNIVERSITY OF KABIANGA</div>
+        <h3>Bachelor's Degree in Information Science and Knowledge Management</h3>
+        <p>IT-focused study covering information management and related digital systems. Add your official award date and any relevant modules or achievements once verified.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="education">
-
-        <div class="card">
-
-            <h3>Bachelor's Degree in Information Science and Knowledge Management</h3>
-
-            <h4>University of Kabianga</h4>
-
-            <p>
-                IT specialization with academic exposure to information
-                systems, information management, networking, computer systems,
-                cybersecurity concepts, data management and digital operations.
-            </p>
-
-        </div>
-
+  <section id="documents">
+    <div class="container">
+      <div class="section-head"><h2>Documents Centre</h2><p>Selected documents for recruiters. Keep private identity and financial documents off this public website.</p></div>
+      <div class="doc-list">
+        <div class="doc"><div class="doc-icon">📄</div><div><h3>CV / Resume</h3><p>Current professional CV in PDF format.</p><a href="documents/Isaac-Obwocha-CV.pdf">Download CV</a></div></div>
+        <div class="doc"><div class="doc-icon">🎓</div><div><h3>Degree Certificate</h3><p>Publish only a copy you are comfortable making public, with sensitive identifiers redacted.</p><a href="documents/degree-certificate-redacted.pdf">View certificate copy</a></div></div>
+        <div class="doc"><div class="doc-icon">🏅</div><div><h3>Professional Certificates</h3><p>Selected training and certification records.</p><a href="documents/professional-certificates.pdf">View certificates</a></div></div>
+        <div class="doc"><div class="doc-icon">📚</div><div><h3>Academic Transcripts</h3><p>Share privately with employers when requested; do not publish full transcripts by default.</p><span class="small">Available on request</span></div></div>
+        <div class="doc"><div class="doc-icon">✉️</div><div><h3>Recommendation Letters</h3><p>Publish only with the author's permission and after removing private contact details if needed.</p><a href="documents/recommendation-letter-redacted.pdf">View approved letter</a></div></div>
+        <div class="doc"><div class="doc-icon">🗂️</div><div><h3>Work Samples & Reports</h3><p>Technical reports, diagrams and anonymised case studies.</p><a href="#projects">Browse project samples</a></div></div>
+      </div>
+      <div class="note"><strong>Privacy:</strong> GitHub Pages is public. Do not upload your passport, national ID, KRA PIN, bank records, full unredacted transcripts, or documents containing confidential employer information. A hidden link is not private access control.</div>
     </div>
+  </section>
 
-</section>
-
-
-<!-- PROFESSIONAL PROFILE -->
-
-<section>
-
-    <div class="section-title">
-        <h2>Professional Profile</h2>
+  <section id="contact">
+    <div class="container">
+      <div class="section-head"><h2>Let's Connect</h2><p>For ICT support, IT operations, information management and related opportunities.</p></div>
+      <div class="contact-grid">
+        <div class="card"><h3>Email</h3><p>Contact me about professional opportunities.</p><a href="mailto:isaacobwocha9@gmail.com">isaacobwocha9@gmail.com</a></div>
+        <div class="card"><h3>Professional Profiles</h3><p><a href="https://linkedin.com/in/isaac-obwocha-983772214" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></p><p><a href="https://github.com/isaacobwocha9-jpg" target="_blank" rel="noopener noreferrer">GitHub profile</a></p><p><a href="https://isaacobwocha9-jpg.github.io/isaacobwocha.github.io/" target="_blank" rel="noopener noreferrer">Portfolio website</a></p></div>
+      </div>
     </div>
-
-    <div class="about">
-
-        <p>
-            <strong>Career Focus:</strong>
-            IT Officer, ICT Support Technician, IT Support Specialist,
-            Systems Support, Network Support, Information Management,
-            Data Management and related technology roles.
-        </p>
-
-        <br>
-
-        <p>
-            <strong>Professional Strengths:</strong>
-            Problem solving, technical support, communication, teamwork,
-            adaptability, customer service, analytical thinking and
-            willingness to learn.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section id="contact" class="contact">
-
-    <div class="section-title">
-
-        <h2>Let's Connect</h2>
-
-    </div>
-
-    <p>
-        <strong>Email:</strong>
-        <a href="mailto:isaacobwocha9@gmail.com">
-            isaacobwocha9@gmail.com
-        </a>
-    </p>
-
-    <p>
-        <strong>Phone:</strong>
-        0718425875
-    </p>
-
-    <p>
-        <strong>LinkedIn:</strong>
-        <a href="https://linkedin.com/in/isaac-obwocha-983772214"
-           target="_blank">
-            linkedin.com/in/isaac-obwocha-983772214
-        </a>
-    </p>
-
-</section>
-
-
-<footer>
-
-    <p>
-        © 2026 Isaac Obwocha Nyamanyara. All Rights Reserved.
-    </p>
-
-</footer>
-
+  </section>
+</main>
+<footer><div class="container">© <span id="year"></span> Isaac Obwocha Nyamanyara · IT Support & Information Management Portfolio</div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
